@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #58ACFA;
+    font-family: 'Arvo', serif;
+}
+
+.contenedor {
+    width: 92%;
+    margin: auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Mirza', cursive;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Mirza', cursive;
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.contenedor-general {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 0px;
+    padding-bottom: 36px;
+}
+
+.contenedor-general .informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    padding-right: 25px;
+    
+}
+    
+.perfil {
+    width: 400px;
+    border-radius: 50%;
+}
+
+h3 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+h4 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 8px;
+}
+
+p {
+    margin-top: 16px;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: justify;
+    color: #fff;
+}
+
+.derecha {
+    padding-right: 40px;
+}
+
+/*  .con_datos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.datos {
+    justify-content: space-around;
+    
+}   */
+
+
+.contenedor-general .con_datos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 26px;
+    margin-right: 24px;
+}
+
+h5 {
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.contenedor-general .con_datos p span {
+    font-weight: 700;
+}
+
+.contenedor-general .con_datos ul li {
+    list-style: none;
+    margin-top: 16px;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #fff
+}
+
+.contenedor-general .con_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 26px;
+    margin-right: 24px;
+}
+
+
